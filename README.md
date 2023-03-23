@@ -1,1 +1,0 @@
-# jacobnormington.github.io
