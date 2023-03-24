@@ -28,7 +28,7 @@ fancybtn.addEventListener("click", () => {
 });
 
 boringbtn.addEventListener("click", () => {
-    txt.style.fontFamily = "sans-serif";
+    txt.style.fontFamily = "initial";
     txt.style.color = "black";
     txt.style.fontWeight = "normal";
     txt.style.textDecoration = "none";
