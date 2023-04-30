@@ -32,9 +32,8 @@ app.get('/math/circle/:r', function (req, res) {
 });
 
 /**
- *  Given a mandatory parameter r, the radius of a circle, 
- *  returns a JSON object with the area and circumference
- *  of the given circle. 
+ *  Given a first and last name as query parameters, greets 
+ *  the user by replying "Hello", with their name. 
  */
 app.get('/hello/name', function (req, res) {
     let fname = req.query['first'];
